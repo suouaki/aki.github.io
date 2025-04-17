@@ -6,6 +6,6 @@
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
     "iconList":{"music":"M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"},
-    "exlink":{"music":"https://github.com/momobako22/media-hosting2/raw/refs/heads/master/TESHiKANi.mp3"},
+    "exlink":{"music":"https://momobako22.github.io/media-hosting2/TESHiKANi.mp3"},
     "onePageListNum":15
 }
