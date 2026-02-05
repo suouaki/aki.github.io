@@ -29,7 +29,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <style>
 .avatar {transition: 0.8s;width:64px;height:64px;object-fit: cover;}
 .avatar:hover{transform: scale(1.15) rotate(360deg);}
-#header h1 a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-family:Monaco;margin-left:8px;}
+.title-left a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-weight: bold;font-family:Monaco;margin-left:8px;}
 .title-right{display:flex;margin:auto 0 0 auto;}
 .title-right button{margin-right:8px;padding:16px;}
 .title-right .circle{padding: 14px 16px;}
@@ -55,8 +55,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1>
-    <img src="http://momo-1-img.ao1160301aila.workers.dev/momobako.png" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">周防秋</a></h1>
+<div class="title-left">
+    <img src="http://momo-1-img.ao1160301aila.workers.dev/momobako.png" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">周防秋</a></div>
 <div class="title-right">
     <a href="https://suouaki.github.io/aki.github.io/tag.html" id="buttonSearch" class="btn btn-invisible circle" title="搜索">
         <svg class="octicon" width="16" height="16" >
@@ -86,7 +86,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav border">
 <a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">使用GitHub构建暴露在公网上的永久轻量级博客</span>
     </div>
@@ -97,7 +97,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/ji-yu-CloudFlare%20Pages-de-kai-yuan-wen-jian-tuo-guan-jie-jue-fang-an-%EF%BC%88-tu-chuang-%EF%BC%8C-wen-jian-%EF%BC%8C-chuang-wang-pan-%EF%BC%89-shi-yong-telegram-jian-li-wu-xian-kong-jian-yong-jiu-mian-fei-tu-chuang-%EF%BC%8C-dan-yi-dang-an-30M-shang-chuan-%E3%80%82.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">基於CloudFlare Pages的開源文件託管解決方案（圖床，文件，床網盤）使用telegram建立無限空間永久免費圖床，單一檔案30M上傳。</span>
     </div>
@@ -108,7 +108,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/GitHub%20-tu-chuang-%20%2B%20Cloudflare%20-jia-su-%20-bu-shu.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">GitHub 图床 + Cloudflare 加速 部署</span>
     </div>
@@ -133,7 +133,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
